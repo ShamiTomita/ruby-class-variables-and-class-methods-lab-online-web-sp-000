@@ -8,15 +8,10 @@ class Song
   
   def initialize(name, artist, genre)
     @@count += 1
-    @@library << name
+    @@library.push(name)
     @@artists << artist
     @@genres << genre
   end 
-  
-  def name(name )
-    @name = name  
-  end 
-  
   
   def self.count
     @@count 
