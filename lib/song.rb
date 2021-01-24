@@ -38,5 +38,4 @@ class Song
   
   def self.artist_count
   end 
-  binding.pry
 end 
