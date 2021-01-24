@@ -8,7 +8,7 @@ class Song
   
   def initialize(name, artist, genre)
     @@count += 1
-    @@library << :name.to_s 
+    @@library << name
     @@artists << artist
     @@genres << genre
   end 
