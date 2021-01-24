@@ -10,7 +10,7 @@ class Song
     @@count += 1
     @song_name = name 
     @song_artists = artist
-    @
+    @song_genre = genre 
     @@library << name
     @@artists << artist
     @@genres << genre
