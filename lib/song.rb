@@ -13,8 +13,6 @@ class Song
     @@library << name
   end 
   
-  
-  
   def self.count
     @@count 
   end 
