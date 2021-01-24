@@ -8,7 +8,7 @@ class Song
   
   def initialize(name, artist, genre)
     @@count += 1
-    @@library.push(name)
+    @@library << name.to_s 
     @@artists << artist
     @@genres << genre
   end 
