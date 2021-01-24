@@ -18,7 +18,7 @@ class Song
   end 
   
   def self.genres
-    @@genres
+    @@genres.unique
     #should only return the unique genres, no duplicates 
     #will want to know how many of each there are
   end 
