@@ -24,7 +24,7 @@ class Song
   end 
   
   def self.artists
-    @@artists 
+    @@artists.uniq
     #should only return unique names, no duplicates 
   end 
   
